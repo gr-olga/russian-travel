@@ -1,0 +1,21 @@
+.lead__title{
+    width: 720px;
+    height: 200px;
+    margin-bottom: 0;
+    margin-right: 152px;
+    margin-left: 152px;
+    margin-top: 48px;
+    align-self: center;
+
+
+    font-family: Inter sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
