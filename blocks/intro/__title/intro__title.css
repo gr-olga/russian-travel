@@ -1,0 +1,14 @@
+.intro__title{
+    width: 690px;
+    height: 58px;
+    margin-left: 148px;
+    margin-bottom: 40px;
+
+    font-family: Inter sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+
+}

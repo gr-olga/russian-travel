@@ -1,12 +1,13 @@
 .lead__subtitle{
     width: 640px;
     height: 72px;
-    margin-bottom: 56px;
-    margin-left: 192px;
-    margin-right: 192px;
     margin-top: 32px;
-    align-self: center;
-
+    /*margin-bottom: 56px;*/
+    /*margin-left: 192px;*/
+    /*margin-right: 192px;*/
+    /*margin-top: 32px;*/
+    /*align-self: center;*/
+justify-self: center;
     font-family: Inter sans-serif;
     font-style: normal;
     font-weight: normal;

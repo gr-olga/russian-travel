@@ -1,11 +1,13 @@
 .lead__title{
     width: 720px;
     height: 200px;
-    margin-bottom: 0;
-    margin-right: 152px;
-    margin-left: 152px;
-    margin-top: 48px;
-    align-self: center;
+    margin: 0;
+    justify-self: center;
+    /*margin-bottom: 0;*/
+    /*margin-right: 152px;*/
+    /*margin-left: 152px;*/
+    /*margin-top: 48px;*/
+    /*align-self: center;*/
 
 
     font-family: Inter sans-serif;
