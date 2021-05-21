@@ -1,0 +1,19 @@
+.place__website__link{
+
+    max-width: 456px;
+    max-height: 22px;
+
+
+    font-family: Inter sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+
+}
