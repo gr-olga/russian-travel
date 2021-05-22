@@ -1,8 +1,7 @@
-.place__title{
+.place__title {
     min-width: 460px;
-    max-height: 152px;
-align-self: end;
-margin: 0;
+    align-self: end;
+    margin: 0;
     font-family: Inter sans-serif;
     font-style: normal;
     font-weight: 900;
