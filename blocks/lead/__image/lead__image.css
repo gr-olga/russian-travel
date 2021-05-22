@@ -1,17 +1,7 @@
-.lead__image{
-    /*background-image: url(../../../images/lead-polka.jpg);*/
-    width: 984px;
+.lead__image {
     height: 615px;
     margin-top: 64px;
-    margin-left: 148px;
-    margin-right: 148px;
-    display: flex;
-    /*align-items: center;*/
-    /*align-self: center;*/
-    /*background-position: center;*/
-    /*background-size: contain;*/
-    /*background-repeat: no-repeat;*/
-    /*justify-content: center;*/
 }
+
 
 
