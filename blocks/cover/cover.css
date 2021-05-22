@@ -1,0 +1,8 @@
+.cover{
+    transition: opacity 0.35s ease;
+}
+
+.cover:hover{
+    opacity:0.3;
+    background: #2A2C2F;
+}
