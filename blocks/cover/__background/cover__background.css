@@ -3,12 +3,27 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    position: relative;
     align-items: center;
     margin-top: 92px;
     margin-right: 48px;
     margin-left: 48px;
+
+}
+
+.cover__background::before {
+    position: absolute;
+    content: '';
+    background: #2A2C2F;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.35s ease;
+}
+
+.cover__background:hover::before {
+
+    opacity: 0.8;
 }
