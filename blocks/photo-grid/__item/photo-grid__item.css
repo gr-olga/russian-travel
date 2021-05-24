@@ -2,3 +2,15 @@
     max-width: 284px;
     height: 213px;
 }
+@media screen and (max-width:1024px ){
+    .photo-grid__item{
+        max-width: 300px;
+        height: 225px;
+    }
+}
+@media screen and (max-width:768px ){
+    .photo-grid__item{
+        max-width: 352px;
+        height: 264px;
+    }
+}

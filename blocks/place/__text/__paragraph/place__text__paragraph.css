@@ -1,11 +1,11 @@
-.place__paragraph{
-    width: 484px;
-    height: 145px;
+.place__text__paragraph{
+    /*width: 484px;*/
+    /*height: 145px;*/
     font-family: Inter sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
     margin: 0;
-    /* or 29px */
+
 }

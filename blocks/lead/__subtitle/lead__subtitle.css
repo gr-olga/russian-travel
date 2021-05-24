@@ -1,21 +1,14 @@
-.lead__subtitle{
-    width: 640px;
+.lead__subtitle {
+    min-width: 640px;
     height: 72px;
     margin-top: 32px;
-    /*margin-bottom: 56px;*/
-    /*margin-left: 192px;*/
-    /*margin-right: 192px;*/
-    /*margin-top: 32px;*/
-    /*align-self: center;*/
-justify-self: center;
+    justify-self: center;
     font-family: Inter sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
     /* or 120% */
-
     text-align: center;
-
     color: #FFFFFF;
 }

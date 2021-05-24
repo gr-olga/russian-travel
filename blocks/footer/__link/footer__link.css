@@ -11,6 +11,7 @@
     line-height: 18px;
     /* identical to box height, or 112% */
     color: #FFFFFF;
+    transition: opacity 0.35s ease;
 }
 .footer__link:hover{
     opacity: .8;

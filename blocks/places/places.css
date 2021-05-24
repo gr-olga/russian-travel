@@ -6,3 +6,13 @@
     gap: 80px;
     margin-left: 148px;
 }
+@media screen and (max-width:1024px ){
+    .places{
+        margin-left: 48px;
+    }
+}
+@media screen and (max-width:768px ){
+    .places{
+        margin-left: 24px;
+    }
+}

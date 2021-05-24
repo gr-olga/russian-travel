@@ -1,8 +1,4 @@
 .header__lang-link{
-    width: 30px;
-    height: 28px;
-    left: 899px;
-    top: 46px;
     border: none;
     background: none;
     color: white;
@@ -17,10 +13,10 @@
     font-size: 24px;
     line-height: 28px;
     /* identical to box height, or 117% */
-
     text-align: right;
     align-self: center;
 }
 .header__lang-link:hover{
     text-decoration-line: underline;
 }
+
