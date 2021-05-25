@@ -5,9 +5,9 @@
 
 @media screen and (max-width: 768px ) {
     .place__image {
-        max-width: 360px;
-        height: 360px;
-        margin-left:24px;
+        max-width: 340px;
+        height: 340px;
+        margin-left: 24px;
     }
 }
 @media screen and (max-width: 320px ) {

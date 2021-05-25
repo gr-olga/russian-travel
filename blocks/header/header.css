@@ -1,21 +1,24 @@
 .header {
-    padding: 28px 48px;
-    display: grid;
-    grid-template-columns: 173px 83% .5fr .5fr;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px 56px;
 }
+
 @media screen and (max-width: 1024px ) {
     .header {
-        grid-template-columns: 173px 80% .5fr .5fr;
+        padding-bottom: 48px;
     }
 }
+
 @media screen and (max-width: 768px ) {
     .header {
-        grid-template-columns: 173px 75% .5fr .5fr;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
+
 @media screen and (max-width: 320px ) {
     .header {
-        grid-template-columns: 142px 45% .5fr .5fr;
-        padding: 16px 16px 48px 16px;
+        padding: 16px 16px 48px;
     }
 }
