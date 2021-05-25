@@ -14,3 +14,9 @@
         height: 264px;
     }
 }
+@media screen and (max-width:360px ){
+    .photo-grid__item{
+        max-width: 288px;
+        height: 216px;
+    }
+}

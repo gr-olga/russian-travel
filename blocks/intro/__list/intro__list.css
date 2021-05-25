@@ -14,3 +14,15 @@
     line-height: 18px;
     /* or 150% */
 }
+@media screen and (max-width: 768px ) {
+    .intro__list {
+        margin-left: 24px;
+        margin-bottom: 88px;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .intro__list {
+        margin-left: 16px;
+        margin-bottom: 64px;
+    }
+}

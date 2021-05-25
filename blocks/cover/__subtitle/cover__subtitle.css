@@ -12,3 +12,24 @@
     -webkit-font-smoothing: antialiased;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px ) {
+    .cover__subtitle {
+        margin-left: 332px;
+        margin-right: 332px;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .cover__subtitle {
+        margin-left: 204px;
+        margin-right: 204px;
+    }
+}
+@media screen and (max-width: 360px ) {
+    .cover__subtitle {
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

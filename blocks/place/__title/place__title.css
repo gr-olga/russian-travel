@@ -9,3 +9,19 @@
     line-height: 76px;
     /* or 106% */
 }
+
+@media screen and (max-width: 768px ) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 360px ) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+    }
+}

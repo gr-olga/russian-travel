@@ -11,3 +11,24 @@
     color: #FFFFFF;
     padding-top: 245px;
 }
+
+@media screen and (max-width: 1024px ) {
+    .cover__title {
+        margin-left: 232px;
+        margin-right: 232px;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .cover__title {
+        margin-left: 104px;
+        margin-right: 104px;
+    }
+}
+@media screen and (max-width: 360px ) {
+    .cover__title {
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

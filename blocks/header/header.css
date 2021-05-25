@@ -3,3 +3,13 @@
     display: grid;
     grid-template-columns: 173px 83% .5fr .5fr;
 }
+@media screen and (max-width: 1024px ) {
+    .header {
+        grid-template-columns: 173px 80% .5fr .5fr;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .header {
+        grid-template-columns: 173px 76% .5fr .5fr;
+    }
+}

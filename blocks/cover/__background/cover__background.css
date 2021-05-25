@@ -27,3 +27,17 @@
 
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px ) {
+    .cover__background {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .cover__background {
+
+    }
+
+}

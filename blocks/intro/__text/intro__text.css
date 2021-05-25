@@ -13,3 +13,16 @@
 
 
 }
+@media screen and (max-width: 768px ) {
+    .intro__text {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .intro__text {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 34px;
+    }
+}
