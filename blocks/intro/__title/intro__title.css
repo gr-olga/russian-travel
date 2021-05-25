@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 360px ) {
+@media screen and (max-width: 320px ) {
     .intro__title {
         margin-left: 16px;
         margin-right: 16px;

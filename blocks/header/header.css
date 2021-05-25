@@ -13,7 +13,7 @@
         grid-template-columns: 173px 75% .5fr .5fr;
     }
 }
-@media screen and (max-width: 360px ) {
+@media screen and (max-width: 320px ) {
     .header {
         grid-template-columns: 142px 45% .5fr .5fr;
         padding: 16px 16px 48px 16px;
