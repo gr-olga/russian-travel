@@ -13,3 +13,9 @@
     align-self: end;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 360px ) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}

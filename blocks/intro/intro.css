@@ -1,5 +1,11 @@
-.intro{
-    width: 690px;
-    height: 429px;
-color: #FFFFFF;
+.intro {
+    max-width: 690px;
+    /*height: 429px;*/
+    color: #FFFFFF;
 }
+
+/*@media screen and (max-width: 360px ) {*/
+/*    .intro {*/
+/*        min-height: auto;*/
+/*    }*/
+/*}*/

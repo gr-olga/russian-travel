@@ -1,4 +1,4 @@
-.photo-grid{
+.photo-grid {
     display: grid;
     grid-template-columns:  repeat(auto-fill, 284px);
     grid-template-rows:repeat(auto-fill, 213px);
@@ -9,15 +9,16 @@
     margin: 92px 48px 90px;
 }
 
-@media screen and (max-width:1024px ){
-    .photo-grid{
+@media screen and (max-width: 1024px ) {
+    .photo-grid {
         grid-template-columns:  repeat(auto-fill, 300px);
         grid-template-rows:repeat(auto-fill, 225px);
         gap: 14px;
     }
 }
-@media screen and (max-width:768px ){
-    .photo-grid{
+
+@media screen and (max-width: 768px ) {
+    .photo-grid {
         grid-template-columns:  repeat(auto-fill, 352px);
         grid-template-rows:repeat(auto-fill, 264px);
         gap: 16px;
@@ -26,10 +27,11 @@
     }
 
 }
-@media screen and (max-width:360px ){
-    .photo-grid{
-grid-template-columns: auto;
-        grid-template-rows: repeat(auto-fill, 212px);
+
+@media screen and (max-width: 360px ) {
+    .photo-grid {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(auto-fill, 216px);
         gap: 12px;
     }
 }
