@@ -25,9 +25,9 @@
 @import "../blocks/place/__title/place__title.css";
 @import "../blocks/place/__image/place__image.css";
 @import "../blocks/place/__website/place__website.css";
-@import "../blocks/place/__website/__link/website__link.css";
-@import "../blocks/place/__website/__url-heading/website__url-heading.css";
-@import "../blocks/place/__text/__paragraph/text__paragraph.css";
+@import "../blocks/place/__website/_link/place__website_link.css";
+@import "../blocks/place/__website/_url-heading/place__website_url-heading.css";
+@import "../blocks/place/__text/_paragraph/place__text_paragraph.css";
 @import "../blocks/place/__text/place__text.css";
 
 @import "../blocks/cover/cover.css";
