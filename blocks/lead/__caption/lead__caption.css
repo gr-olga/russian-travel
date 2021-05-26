@@ -10,7 +10,7 @@
     /* identical to box height, or 140% */
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    align-self: end;
+    align-self: baseline;
     color: #FFFFFF;
 }
 
