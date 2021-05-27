@@ -13,6 +13,12 @@
     line-height: 18px;
     /* or 150% */
 }
+@media screen and (max-width: 1024px ) {
+    .intro__list {
+        margin-left: 48px;
+        margin-bottom: 92px;
+    }
+}
 
 @media screen and (max-width: 768px ) {
     .intro__list {

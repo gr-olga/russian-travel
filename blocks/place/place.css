@@ -1,8 +1,7 @@
 .place {
-    /*max-width: 984px;*/
     display: grid;
-    grid-template-rows: minmax(min-content, max-content) 460px;
-    grid-template-columns: repeat(2, 472px);
+    grid-template-rows: minmax(min-content, max-content) 1fr;
+    grid-template-columns:  472px 1fr;
     column-gap: 40px;
     row-gap: 48px;
 }

@@ -5,15 +5,20 @@
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     gap: 80px;
     margin-left: 148px;
+    margin-right: 148px;
+
+
 }
 @media screen and (max-width:1024px ){
-    .places{
+    .places {
         margin-left: 48px;
+        margin-right: 48px;
     }
 }
 @media screen and (max-width:768px ){
-    .places{
+    .places {
         margin-left: 0;
+        margin-right: 0;
     }
 }
 @media screen and (max-width:360px ){
