@@ -1,5 +1,14 @@
 .page {
+    min-width: 1080px;
+    max-width: 1600px;
     background: #2A2C2F;
     margin: 0;
     font-family: Inter, sans-serif;
+}
+
+@media screen and (max-width: 1024px ) {
+    .page {
+        max-width: 1024px;
+        min-width: 770px;
+    }
 }
