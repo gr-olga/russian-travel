@@ -6,6 +6,7 @@
   src: url("../../../fonts/Inter-3.18/Inter Web/Inter-Thin.woff2") format("woff2"),
   url("../../../fonts/Inter-3.18/Inter Web/Inter-Thin.woff") format("woff");
 }
+
 @font-face {
   font-family: 'Inter';
   font-style: italic;
@@ -57,6 +58,7 @@
   src: url("../../../fonts/Inter-3.18/Inter Web/Inter-Regular.woff2") format("woff2"),
   url("../../../fonts/Inter-3.18/Inter Web/Inter-Regular.woff") format("woff");
 }
+
 @font-face {
   font-family: 'Inter';
   font-style: italic;
