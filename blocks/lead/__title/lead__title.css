@@ -1,5 +1,6 @@
 .lead__title {
-    margin: 0;
+    margin-right: 280px;
+    margin-left: 280px;
     justify-self: center;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -9,6 +10,21 @@
     /* or 104% */
     text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px ) {
+    .lead__title {
+        margin-left: 152px;
+        margin-right: 152px;
+    }
+}
+
+@media screen and (max-width: 760px ) {
+    .lead__title {
+        margin-left: 24px;
+        margin-right: 24px;
+        word-wrap: anywhere;
+    }
 }
 
 @media screen and (max-width: 320px ) {
