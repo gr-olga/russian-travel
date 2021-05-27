@@ -1,4 +1,13 @@
-.header__lang-link{
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../../../fonts/Inter-3.18/Inter Web/Inter-Regular.woff2") format("woff2"),
+    url("../../../fonts/Inter-3.18/Inter Web/Inter-Regular.woff") format("woff")
+}
+
+.header__lang-link {
     border: none;
     background: none;
     color: white;
@@ -16,7 +25,8 @@
     text-align: right;
     align-self: center;
 }
-.header__lang-link:hover{
+
+.header__lang-link:hover {
     text-decoration-line: underline;
 }
 
