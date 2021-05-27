@@ -1,5 +1,7 @@
 .cover {
     position: relative;
+    display: -moz-flex;
+    display: flex;
 }
 
 @media screen and (max-width: 320px ) {

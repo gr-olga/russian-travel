@@ -2,6 +2,7 @@
     margin-top: 32px;
     margin-right: 320px;
     margin-left: 320px;
+    -ms-grid-column-align: center;
     justify-self: center;
     font-family: Inter, sans-serif;
     font-style: normal;

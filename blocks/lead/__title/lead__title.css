@@ -1,6 +1,7 @@
 .lead__title {
     margin-right: 280px;
     margin-left: 280px;
+    -ms-grid-column-align: center;
     justify-self: center;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -24,6 +25,7 @@
         margin-left: 24px;
         margin-right: 24px;
         word-wrap: anywhere;
+        font-size: 70px;
     }
 }
 

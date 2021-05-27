@@ -9,6 +9,7 @@
     /* identical to box height, or 140% */
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    -ms-flex-item-align: baseline;
     align-self: baseline;
     color: #FFFFFF;
 }
