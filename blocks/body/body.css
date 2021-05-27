@@ -1,5 +1,35 @@
-.body{
+.body {
     margin: 0;
     background: #2A2C2F;
+    min-width: 1080px;
+    max-width: 1600px;
+    font-family: Inter, sans-serif;
+}
 
+@media screen and (max-width: 1024px ) {
+    .body {
+        max-width: 1024px;
+        min-width: 770px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .body {
+        max-width: 768px;
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px ) {
+    .body {
+        max-width: 500px;
+        min-width: 320px;
+    }
+}
+
+@media screen and (max-width: 320px ) {
+    .body {
+        max-width: 320px;
+        min-width: 210px;
+    }
 }
