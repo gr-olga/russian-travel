@@ -8,17 +8,14 @@
 @media screen and (max-width: 1024px ) {
     .place__text {
         gap: 27px;
-        margin-right: 48px;
     }
 }
 
 @media screen and (max-width: 768px ) {
     .place__text {
         gap: 25px;
-        margin-right: 24px;
     }
 }
-
 
 @media screen and (max-width: 600px ) {
     .place__text {

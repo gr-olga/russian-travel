@@ -11,10 +11,10 @@
 <body class="body">
 <header class="header">
     <img alt="логотип" class="header__logo" src="images/header-logo.svg">
-    <div class="header__button-group">
-        <button class="header__lang-link header__lang-link_active">Ru</button>
-        <button class="header__lang-link">En</button>
-    </div>
+    <ul class="header__button-group">
+        <li><a class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a class="header__lang-link">En</a></li>
+    </ul>
 </header>
 
 <main class="content">
@@ -59,7 +59,7 @@
         <img alt="туман" class="photo-grid__item" src="images/photo-grid-tuman.jpg">
     </section>
     <section class="places">
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
                 <h3 class="place__url-heading">URL</h3>
@@ -81,9 +81,9 @@
                     прохладного моря
                 </p>
             </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
                 <h3 class="place__url-heading">URL</h3>
@@ -107,8 +107,8 @@
                     начинает сбываться с билетом в Мурманск.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
                 <h3 class="place__url-heading">URL</h3>
@@ -132,8 +132,8 @@
                     а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
                 <h3 class="place__url-heading">URL</h3>
@@ -156,8 +156,8 @@
                     км/ч.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
                 <h3 class="place__url-heading">URL</h3>
@@ -177,7 +177,7 @@
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                 </p>
             </div>
-        </div>
+        </article>
     </section>
     <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
@@ -189,16 +189,18 @@
     </section>
 </main>
 <footer class="footer">
-    <ul class="footer__links">
-        <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        </li>
-        <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ruu">Путешествия</a>
-        </li>
-    </ul>
-    <div class="footer__copyright">© 2021. Gr-Olga</div>
+    <nav>
+        <ul class="footer__links">
+            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+            </li>
+            <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ruu">Путешествия</a>
+            </li>
+        </ul>
+    </nav>
+    <p class="footer__copyright">© 2021. Gr-Olga</p>
 </footer>
 </body>
 </html>
