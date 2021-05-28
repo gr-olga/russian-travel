@@ -1,6 +1,5 @@
 .lead__title {
-    margin-right: 280px;
-    margin-left: 280px;
+    margin: auto;
     -ms-grid-column-align: center;
     justify-self: center;
     font-family: Inter, sans-serif;
@@ -11,13 +10,6 @@
     text-align: center;
     color: #FFFFFF;
     word-wrap: break-word;
-}
-
-@media screen and (max-width: 1024px ) {
-    .lead__title {
-        margin-left: 152px;
-        margin-right: 152px;
-    }
 }
 
 @media screen and (max-width: 760px ) {

@@ -1,7 +1,5 @@
 .lead__subtitle {
-    margin-top: 32px;
-    margin-right: 320px;
-    margin-left: 320px;
+    margin: 32px auto 0;
     -ms-grid-column-align: center;
     justify-self: center;
     font-family: Inter, sans-serif;
@@ -17,7 +15,6 @@
 @media screen and (max-width: 1024px ) {
     .lead__subtitle {
         margin-left: 192px;
-        margin-top: 32px;
         margin-right: 192px;
     }
 }
@@ -25,7 +22,6 @@
 @media screen and (max-width: 768px ) {
     .lead__subtitle {
         margin-left: 64px;
-        margin-top: 32px;
         margin-right: 64px;
     }
 }
