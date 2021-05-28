@@ -1,5 +1,4 @@
 .places {
-    /*max-width: 984px;*/
     color: #FFFFFF;
     display: grid;
     grid-template-rows: repeat(5, minmax(min-content, max-content));
