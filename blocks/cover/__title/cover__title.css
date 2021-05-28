@@ -9,12 +9,20 @@
     text-align: center;
     position: relative;
     color: #FFFFFF;
-    padding-top: 55px;
+    margin: 0;
+    padding-top: 245px;
 }
 
 @media screen and (max-width: 1024px ) {
     .cover__title {
         max-width: 768px;
+        padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .cover__title {
+        padding-top: 115px;
     }
 }
 
@@ -31,6 +39,6 @@
         max-width: 320px;
         font-size: 32px;
         line-height: 35px;
-        padding-top: 0;
+        padding-top: 33px;
     }
 }

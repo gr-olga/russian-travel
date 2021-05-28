@@ -33,24 +33,32 @@
     .cover__background {
         margin-left: 0;
         margin-right: 0;
+        height: 640px;
+    }
+}
+
+
+@media screen and (max-width: 768px ) {
+    .cover__background {
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 650px ) {
     .cover__background {
-        max-height: 450px;
+        height: 450px;
     }
 }
 
 @media screen and (max-width: 450px ) {
     .cover__background {
-        max-height: 350px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width: 320px ) {
     .cover__background {
-        max-height: 200px;
+        height: 200px;
         margin-top: 46px;
     }
 }

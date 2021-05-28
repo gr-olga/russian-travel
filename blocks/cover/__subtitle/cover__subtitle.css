@@ -10,6 +10,8 @@
     text-align: center;
     -webkit-font-smoothing: antialiased;
     color: #FFFFFF;
+    margin: 0;
+    padding-top: 32px;
 }
 
 @media screen and (max-width: 320px ) {
@@ -17,5 +19,6 @@
         max-width: 320px;
         font-size: 14px;
         line-height: 16px;
+        padding-top: 16px;
     }
 }
