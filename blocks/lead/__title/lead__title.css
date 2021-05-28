@@ -8,9 +8,9 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    /* or 104% */
     text-align: center;
     color: #FFFFFF;
+    word-wrap: break-word;
 }
 
 @media screen and (max-width: 1024px ) {
@@ -24,8 +24,21 @@
     .lead__title {
         margin-left: 24px;
         margin-right: 24px;
-        word-wrap: anywhere;
         font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 515px ) {
+    .lead__title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (max-width: 430px ) {
+    .lead__title {
+        font-size: 42px;
+        line-height: 44px;
     }
 }
 

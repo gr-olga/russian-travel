@@ -2,6 +2,7 @@
     position: relative;
     display: -moz-flex;
     display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 320px ) {
