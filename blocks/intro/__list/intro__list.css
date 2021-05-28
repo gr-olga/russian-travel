@@ -2,8 +2,6 @@
     margin-bottom: 92px;
     list-style-type: none;
     padding: 0;
-
-
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -13,21 +11,18 @@
 }
 @media screen and (max-width: 1024px ) {
     .intro__list {
-        margin-left: 48px;
         margin-bottom: 92px;
     }
 }
 
 @media screen and (max-width: 768px ) {
     .intro__list {
-        margin-left: 24px;
         margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 320px ) {
     .intro__list {
-        margin-left: 16px;
         margin-bottom: 64px;
 
     }

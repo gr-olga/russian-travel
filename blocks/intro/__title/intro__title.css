@@ -7,23 +7,3 @@
     line-height: 58px;
     /* identical to box height, or 107% */
 }
-
-@media screen and (max-width: 1024px ) {
-    .intro__title {
-        margin-left: 48px;
-    }
-}
-
-@media screen and (max-width: 768px ) {
-    .intro__title {
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-}
-@media screen and (max-width: 320px ) {
-    .intro__title {
-        margin-left: 16px;
-        margin-right: 16px;
-        font-size: 34px;
-    }
-}
