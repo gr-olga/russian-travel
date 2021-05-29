@@ -20,12 +20,8 @@
 
 @media screen and (max-width: 1024px ) {
     .lead__caption {
-        /*max-width: none;*/
         max-width: 928px;
         margin: 0;
-        /*width: auto;*/
-        width: min-content;
-        white-space: nowrap;
     }
 }
 
@@ -41,3 +37,4 @@
         margin: 0 16px;
     }
 }
+
