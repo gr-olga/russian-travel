@@ -20,11 +20,13 @@
 @media screen and (max-width: 600px ) {
     .place__text {
         margin: 32px auto 50px;
+        padding: 0 16px;
     }
 }
 
 @media screen and (max-width: 320px ) {
     .place__text {
         margin: 32px 16px 50px;
+        padding: 0;
     }
 }
