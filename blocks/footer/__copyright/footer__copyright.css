@@ -9,6 +9,17 @@
     text-align: right;
     color: #FFFFFF;
 }
+@media screen and (max-width: 520px ) {
+    .footer__copyright {
+        line-height: 14px;
+        margin-top: 16px;
+        align-self: flex-start;
+        margin-bottom: 24px;
+        margin-left: 16px;
+
+    }
+}
+
 @media screen and (max-width: 320px ) {
     .footer__copyright {
         line-height: 14px;
