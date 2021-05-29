@@ -15,6 +15,13 @@
     padding: 0 148px;
 }
 
+/*@media screen and (min-width: 1400px) {*/
+/*    .lead{*/
+/*    max-width: 984px;*/
+/*     padding: 0 148px;*/
+/*}*/
+/*}*/
+
 @media screen and (max-width: 1024px ) {
     .lead {
         padding: 0 48px;
