@@ -19,14 +19,14 @@
 
 @media screen and (max-width: 650px ) {
     .place__image {
+        width: 320px;
+        height: 320px;
         margin: auto;
     }
 }
 
 @media screen and (max-width: 320px ) {
     .place__image {
-        width: 320px;
-        height: 320px;
         margin: 0;
     }
 }
