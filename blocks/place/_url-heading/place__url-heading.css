@@ -9,7 +9,7 @@
     color: #AAAAAA;
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 650px ) {
     .place__url-heading {
         margin-left: 16px;
     }

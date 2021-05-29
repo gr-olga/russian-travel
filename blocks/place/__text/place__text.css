@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 650px ) {
     .place__text {
         margin: 32px auto 50px;
         padding: 0 16px;
