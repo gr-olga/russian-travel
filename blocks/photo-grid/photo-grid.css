@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns:  repeat(auto-fill, 284px);
     grid-template-rows:repeat(auto-fill, 213px);
-    /*min-width: 1184px;*/
-    /*height: 671px;*/
     gap: 16px;
     justify-content: center;
     margin: 0 48px 92px;
