@@ -3,14 +3,12 @@
     display: -moz-flex;
     display: flex;
     justify-content: center;
-    margin-bottom: 92px;
     margin-top: 92px;
 }
 
 
 @media screen and (max-width: 768px ) {
     .cover {
-        margin-bottom: 90px;
         margin-top: 90px;
     }
 }
@@ -19,7 +17,6 @@
 @media screen and (max-width: 400px ) {
     .cover {
         min-height: 200px;
-        margin-bottom: 64px;
         margin-top: 16px;
     }
 }

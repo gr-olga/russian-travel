@@ -22,11 +22,13 @@
 @media screen and (max-width: 768px ) {
     .intro {
         max-width: 720px;
+        margin-top: 88px;
     }
 }
 
 @media screen and (max-width: 320px ) {
     .intro {
+        margin-top: 64px;
         max-width: 288px;
     }
 }

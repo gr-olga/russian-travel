@@ -1,5 +1,6 @@
 .lead__subtitle {
     max-width: 640px;
+    margin: 0;
     margin-top: 32px;
     -ms-grid-column-align: center;
     justify-self: center;
