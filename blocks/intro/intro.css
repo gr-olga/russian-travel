@@ -26,7 +26,35 @@
     }
 }
 
-@media screen and (max-width: 320px ) {
+@media screen and (max-width: 700px ) {
+    .intro {
+        max-width: 600px;
+
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .intro {
+        max-width: 560px;
+
+    }
+}
+
+@media screen and (max-width: 550px ) {
+    .intro {
+        max-width: 440px;
+
+    }
+}
+
+@media screen and (max-width: 440px ) {
+    .intro {
+        max-width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 400px ) {
     .intro {
         margin-top: 64px;
         max-width: 288px;
