@@ -9,37 +9,14 @@
 
 @media screen and (max-width: 1024px ) {
     .places {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 950px ) {
-    .places {
-        max-width: 854px;
-    }
-}
-
-@media screen and (max-width: 850px ) {
-    .places {
-        max-width: 770px;
+        max-width: calc(100% - (48px + 48px));
     }
 }
 
 @media screen and (max-width: 768px ) {
     .places {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 730px ) {
-    .places {
-        max-width: 660px;
-    }
-}
-
-@media screen and (max-width: 660px ) {
-    .places {
-        max-width: 550px;
+        max-width: calc(100% - (24px + 24px));
+        gap: 73px;
     }
 }
 

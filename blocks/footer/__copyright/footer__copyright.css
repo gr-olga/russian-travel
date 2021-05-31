@@ -8,6 +8,11 @@
     text-align: right;
     color: #FFFFFF;
 }
+@media screen and (max-width: 760px ) {
+    .footer__copyright {
+        align-self: baseline;
+    }
+}
 
 @media screen and (max-width: 520px ) {
     .footer__copyright {
@@ -15,7 +20,5 @@
         margin-top: 16px;
         align-self: flex-start;
         margin-bottom: 24px;
-        margin-left: 16px;
-
     }
 }

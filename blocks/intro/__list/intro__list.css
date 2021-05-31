@@ -21,3 +21,9 @@
         margin-bottom: 88px;
     }
 }
+
+@media screen and (max-width: 320px ) {
+    .intro__list {
+        margin-bottom: 64px;
+    }
+}
