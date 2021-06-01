@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 810px ) {
     .place {
         grid-template-rows: auto;
         grid-template-columns: repeat(2, 1fr);
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 650px ) {
+@media screen and (max-width: 670px ) {
     .place {
         grid-template-columns: auto;
         gap: 12px;

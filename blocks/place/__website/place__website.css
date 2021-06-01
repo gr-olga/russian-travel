@@ -7,3 +7,9 @@
         margin-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 650px ) {
+    .place__website {
+        margin-top: 32px;
+    }
+}
